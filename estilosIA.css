@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilos para los enlaces del menú en el index.html */
+header nav ul li a {
+    color: white; /* Cambia el color del texto a blanco */
+    text-decoration: none; /* Quita la subrayado por defecto de los enlaces */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Agrega subrayado al pasar el mouse por encima */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los párrafos que contienen los campos del formulario */
+main p {
+    margin-bottom: 20px; /* Espacio vertical entre párrafos */
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    display: block; /* Hace que las etiquetas ocupen toda la línea */
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Estilos específicos para imágenes */
+.imagenes {
+    display: block;
+    gap: 20px;
+}
+
+.imagenes img {
+    width: 200px; /* mismo que height*/
+    height: 200px; /* height: auto; Originalmente me lo dio asi, tuve que modificarlo para que tengan el mismo tamaño*/
+    border: 2px solid #333;
+    padding: 10px;
+}
+
+/* Estilos para los campos del formulario de contacto */
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.campo textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+}
+
+.campo input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
